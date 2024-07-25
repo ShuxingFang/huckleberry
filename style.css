@@ -7,6 +7,38 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%
 }
 
 /* Add styles here! */
+
+strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+.indented-heading {
+  background-color: hsl(45deg, 100%, 50%);
+  width: fit-content;
+}
+
+main {
+  background-color: hsl(0deg, 0%, 30%);
+  padding-top: 16px;
+  padding-bottom: 16px;
+  height: 50%;
+}
+
+.intro-chunk {
+  height:50%;
+  padding-top: 64px;
+  width: 20%;
+  margin-left: 400px;
+}
+
+.card {
+  background-color: white;
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+}
